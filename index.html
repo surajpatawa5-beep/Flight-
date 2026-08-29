@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+<title>Varanasi Air - Step 4</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="game"></div>
+
+<div id="hud">
+
+  <div class="title">✈️ VARANASI AIR</div>
+
+  <div>Speed:
+    <b id="speed">0</b> km/h
+  </div>
+
+  <div>Altitude:
+    <b id="altitude">2</b> m
+  </div>
+
+  <div>Fuel:
+    <b id="fuel">100</b>%
+  </div>
+
+  <div>Passengers:
+    <b id="passengers">0</b>/20
+  </div>
+
+  <div>Money:
+    ₹<b id="money">0</b>
+  </div>
+
+  <div>Gear:
+    <b id="gear">DOWN</b>
+  </div>
+
+  <div>Destination:
+    <b id="destination">Varanasi Airport</b>
+  </div>
+
+  <div class="mission">
+    Mission:<br>
+    <b id="mission">
+      Airport पर passengers लेने जाएँ
+    </b>
+  </div>
+
+</div>
+
+
+<!-- MINIMAP -->
+
+<div id="map">
+
+  <div class="mapTitle">
+    MAP
+  </div>
+
+  <div id="playerDot"></div>
+
+  <div class="airportDot a1"></div>
+  <div class="airportDot a2"></div>
+  <div class="airportDot a3"></div>
+
+</div>
+
+
+<div id="message"></div>
+
+
+<button id="cameraBtn">
+🎥 Camera
+</button>
+
+<button id="gearBtn">
+🛞 Gear
+</button>
+
+<button id="destinationBtn">
+📍 Destination
+</button>
+
+
+<div id="controls">
+
+  <button id="left">◀</button>
+
+  <button id="up">▲</button>
+
+  <button id="down">▼</button>
+
+  <button id="right">▶</button>
+
+  <button id="throttle">🚀</button>
+
+  <button id="brake">🛑</button>
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
